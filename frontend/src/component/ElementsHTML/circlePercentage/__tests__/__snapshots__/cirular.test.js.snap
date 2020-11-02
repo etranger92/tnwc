@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`We test the innerHTML of the circulePercent Snapshot circulePercent  1`] = `
+<AnimatedProgressProvider
+  duration={2}
+  easingFunction={[Function]}
+  repeat={false}
+  valueEnd={0}
+  valueStart={0}
+>
+  <Component />
+</AnimatedProgressProvider>
+`;

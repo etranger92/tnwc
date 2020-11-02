@@ -1,0 +1,9 @@
+API
+yarn add google-map-react
+yarn add react-google-places-autocomplete
+
+
+Test
+yarn add --dev @testing-library/react
+jest-puppeteer
+puppeteer

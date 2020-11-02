@@ -1,0 +1,398 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`We test the html of Navigation Snapshot navigation 1`] = `
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Navigation>
+      <nav
+        className="nav_container"
+      >
+        <div
+          className="nav_desktop"
+        >
+          <NavBar
+            isItClicked={true}
+            scroll={false}
+          >
+            <ul
+              id="nav-bar"
+              style={Object {}}
+            >
+              <li>
+                 
+                <ForwardRef
+                  onClick={[Function]}
+                  to="/#home"
+                >
+                  <Link
+                    onClick={[Function]}
+                    to="/#home"
+                  >
+                    <LinkAnchor
+                      href="/#home"
+                      navigate={[Function]}
+                      onClick={[Function]}
+                    >
+                      <a
+                        href="/#home"
+                        onClick={[Function]}
+                      >
+                         
+                        Home
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </ForwardRef>
+              </li>
+              <li>
+                 
+                <ForwardRef
+                  onClick={[Function]}
+                  to="/#display-article-course"
+                >
+                  <Link
+                    onClick={[Function]}
+                    to="/#display-article-course"
+                  >
+                    <LinkAnchor
+                      href="/#display-article-course"
+                      navigate={[Function]}
+                      onClick={[Function]}
+                    >
+                      <a
+                        href="/#display-article-course"
+                        onClick={[Function]}
+                      >
+                         
+                        Course
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </ForwardRef>
+              </li>
+              <li>
+                 
+                <NavLink
+                  onClick={[Function]}
+                  to="https://www.thenorthwestcollege.com/"
+                >
+                  <Link
+                    aria-current={null}
+                    onClick={[Function]}
+                    to={
+                      Object {
+                        "hash": "",
+                        "pathname": "/https://www.thenorthwestcollege.com/",
+                        "search": "",
+                        "state": null,
+                      }
+                    }
+                  >
+                    <LinkAnchor
+                      aria-current={null}
+                      href="/https://www.thenorthwestcollege.com/"
+                      navigate={[Function]}
+                      onClick={[Function]}
+                    >
+                      <a
+                        aria-current={null}
+                        href="/https://www.thenorthwestcollege.com/"
+                        onClick={[Function]}
+                      >
+                        <IconHome
+                          effect={false}
+                        >
+                          <svg
+                            className="icon_home"
+                            height="1062pt"
+                            preserveAspectRatio="xMidYMid meet"
+                            viewBox="0 0 1018 1062"
+                            width="1018pt"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              className=" icon_home_color"
+                              d="m8020 10341c-41-20-127-65-190-98s-198-103-300-156c-102-52-232-119-290-149-58-31-179-94-270-140-91-47-226-117-300-155-218-113-423-219-610-316-96-49-227-117-290-150-63-32-194-100-290-150-96-49-227-117-290-150-63-32-198-102-300-154-102-53-228-118-280-146s-116-61-141-74c-55-28-90-65-112-118-48-116-130-314-142-340-12-29-79-189-192-460-30-71-74-177-98-235s-69-166-100-240c-92-222-140-336-214-510-38-91-89-214-114-275-79-193-144-348-172-409-26-58-27-59-44-40-18 18-345 418-443 541-67 84-80 97-111 111-15 6-27 16-27 21s-7 17-16 25c-14 14-118 16-997 16-955 0-983-1-994-19-7-11-40-115-74-233-69-238-65-225-147-508-33-113-94-324-136-470-43-146-85-292-96-325-10-33-32-111-50-173-30-108-30-113-14-141 9-15 30-36 46-45 41-25 69-12 185 82 86 69 726 578 761 606 21 15 6 48 244-534 55-135 140-344 190-465 49-121 128-314 175-430 46-115 91-223 98-240 8-16 48-115 90-220 42-104 85-208 94-230 10-22 26-60 36-85 41-97 51-103 226-150 273-72 421-112 524-140 61-17 151-41 200-54 50-13 167-44 260-70 201-54 749-202 1280-346 209-56 542-146 740-200 198-53 529-143 735-198 206-56 473-128 593-161 121-32 223-63 228-68 9-9 32-86 208-713 51-179 96-337 102-352 23-56-80-24 1381-437 444-126 468-132 495-118 36 19 57 57 51 94-4 28-321 504-2063 3103-787 1175-906 1351-988 1473-48 70-87 136-87 146s46 126 101 257c126 297 263 621 367 869 93 221 236 558 367 870 51 121 137 324 190 450 54 127 139 329 190 450s130 308 175 415 131 310 190 450c60 140 145 343 190 450s140 330 210 495c274 643 266 617 209 674-17 17-40 31-52 31s-56-18-97-39z"
+                              transform="matrix(.1 0 0 -.1 0 1062)"
+                            />
+                          </svg>
+                        </IconHome>
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </NavLink>
+              </li>
+              <li>
+                 
+                <ForwardRef
+                  onClick={[Function]}
+                  to="/#inscription"
+                >
+                  <Link
+                    onClick={[Function]}
+                    to="/#inscription"
+                  >
+                    <LinkAnchor
+                      href="/#inscription"
+                      navigate={[Function]}
+                      onClick={[Function]}
+                    >
+                      <a
+                        href="/#inscription"
+                        onClick={[Function]}
+                      >
+                         
+                        Inscription
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </ForwardRef>
+              </li>
+              <li>
+                 
+                <ForwardRef
+                  onClick={[Function]}
+                  to="/#footer"
+                >
+                  <Link
+                    onClick={[Function]}
+                    to="/#footer"
+                  >
+                    <LinkAnchor
+                      href="/#footer"
+                      navigate={[Function]}
+                      onClick={[Function]}
+                    >
+                      <a
+                        href="/#footer"
+                        onClick={[Function]}
+                      >
+                         
+                        Contact
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </ForwardRef>
+              </li>
+            </ul>
+          </NavBar>
+        </div>
+        <div
+          className="nav_mobile"
+          style={Object {}}
+        >
+          <Burger
+            clickEvent={[Function]}
+            isItClicked={false}
+          >
+            <div
+              className=""
+              data-testid="no-classes"
+              id="burger"
+              onClick={[Function]}
+            >
+              <span />
+              <span />
+              <span />
+            </div>
+          </Burger>
+          <div
+            className="menu_mobile"
+            style={Object {}}
+          >
+            <NavBar
+              clickEvent={[Function]}
+              isItClicked={false}
+            >
+              <ul
+                id="nav-bar"
+                style={
+                  Object {
+                    "opacity": 0,
+                  }
+                }
+              >
+                <li>
+                   
+                  <ForwardRef
+                    onClick={[Function]}
+                    to="/#home"
+                  >
+                    <Link
+                      onClick={[Function]}
+                      to="/#home"
+                    >
+                      <LinkAnchor
+                        href="/#home"
+                        navigate={[Function]}
+                        onClick={[Function]}
+                      >
+                        <a
+                          href="/#home"
+                          onClick={[Function]}
+                        >
+                           
+                          Home
+                        </a>
+                      </LinkAnchor>
+                    </Link>
+                  </ForwardRef>
+                </li>
+                <li>
+                   
+                  <ForwardRef
+                    onClick={[Function]}
+                    to="/#display-article-course"
+                  >
+                    <Link
+                      onClick={[Function]}
+                      to="/#display-article-course"
+                    >
+                      <LinkAnchor
+                        href="/#display-article-course"
+                        navigate={[Function]}
+                        onClick={[Function]}
+                      >
+                        <a
+                          href="/#display-article-course"
+                          onClick={[Function]}
+                        >
+                           
+                          Course
+                        </a>
+                      </LinkAnchor>
+                    </Link>
+                  </ForwardRef>
+                </li>
+                <li>
+                   
+                  <NavLink
+                    onClick={[Function]}
+                    to="https://www.thenorthwestcollege.com/"
+                  >
+                    <Link
+                      aria-current={null}
+                      onClick={[Function]}
+                      to={
+                        Object {
+                          "hash": "",
+                          "pathname": "/https://www.thenorthwestcollege.com/",
+                          "search": "",
+                          "state": null,
+                        }
+                      }
+                    >
+                      <LinkAnchor
+                        aria-current={null}
+                        href="/https://www.thenorthwestcollege.com/"
+                        navigate={[Function]}
+                        onClick={[Function]}
+                      >
+                        <a
+                          aria-current={null}
+                          href="/https://www.thenorthwestcollege.com/"
+                          onClick={[Function]}
+                        >
+                          <IconHome>
+                            <svg
+                              className="icon_home"
+                              height="1062pt"
+                              preserveAspectRatio="xMidYMid meet"
+                              viewBox="0 0 1018 1062"
+                              width="1018pt"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                className=" icon_home_color"
+                                d="m8020 10341c-41-20-127-65-190-98s-198-103-300-156c-102-52-232-119-290-149-58-31-179-94-270-140-91-47-226-117-300-155-218-113-423-219-610-316-96-49-227-117-290-150-63-32-194-100-290-150-96-49-227-117-290-150-63-32-198-102-300-154-102-53-228-118-280-146s-116-61-141-74c-55-28-90-65-112-118-48-116-130-314-142-340-12-29-79-189-192-460-30-71-74-177-98-235s-69-166-100-240c-92-222-140-336-214-510-38-91-89-214-114-275-79-193-144-348-172-409-26-58-27-59-44-40-18 18-345 418-443 541-67 84-80 97-111 111-15 6-27 16-27 21s-7 17-16 25c-14 14-118 16-997 16-955 0-983-1-994-19-7-11-40-115-74-233-69-238-65-225-147-508-33-113-94-324-136-470-43-146-85-292-96-325-10-33-32-111-50-173-30-108-30-113-14-141 9-15 30-36 46-45 41-25 69-12 185 82 86 69 726 578 761 606 21 15 6 48 244-534 55-135 140-344 190-465 49-121 128-314 175-430 46-115 91-223 98-240 8-16 48-115 90-220 42-104 85-208 94-230 10-22 26-60 36-85 41-97 51-103 226-150 273-72 421-112 524-140 61-17 151-41 200-54 50-13 167-44 260-70 201-54 749-202 1280-346 209-56 542-146 740-200 198-53 529-143 735-198 206-56 473-128 593-161 121-32 223-63 228-68 9-9 32-86 208-713 51-179 96-337 102-352 23-56-80-24 1381-437 444-126 468-132 495-118 36 19 57 57 51 94-4 28-321 504-2063 3103-787 1175-906 1351-988 1473-48 70-87 136-87 146s46 126 101 257c126 297 263 621 367 869 93 221 236 558 367 870 51 121 137 324 190 450 54 127 139 329 190 450s130 308 175 415 131 310 190 450c60 140 145 343 190 450s140 330 210 495c274 643 266 617 209 674-17 17-40 31-52 31s-56-18-97-39z"
+                                transform="matrix(.1 0 0 -.1 0 1062)"
+                              />
+                            </svg>
+                          </IconHome>
+                        </a>
+                      </LinkAnchor>
+                    </Link>
+                  </NavLink>
+                </li>
+                <li>
+                   
+                  <ForwardRef
+                    onClick={[Function]}
+                    to="/#inscription"
+                  >
+                    <Link
+                      onClick={[Function]}
+                      to="/#inscription"
+                    >
+                      <LinkAnchor
+                        href="/#inscription"
+                        navigate={[Function]}
+                        onClick={[Function]}
+                      >
+                        <a
+                          href="/#inscription"
+                          onClick={[Function]}
+                        >
+                           
+                          Inscription
+                        </a>
+                      </LinkAnchor>
+                    </Link>
+                  </ForwardRef>
+                </li>
+                <li>
+                   
+                  <ForwardRef
+                    onClick={[Function]}
+                    to="/#footer"
+                  >
+                    <Link
+                      onClick={[Function]}
+                      to="/#footer"
+                    >
+                      <LinkAnchor
+                        href="/#footer"
+                        navigate={[Function]}
+                        onClick={[Function]}
+                      >
+                        <a
+                          href="/#footer"
+                          onClick={[Function]}
+                        >
+                           
+                          Contact
+                        </a>
+                      </LinkAnchor>
+                    </Link>
+                  </ForwardRef>
+                </li>
+              </ul>
+            </NavBar>
+          </div>
+        </div>
+      </nav>
+    </Navigation>
+  </Router>
+</BrowserRouter>
+`;

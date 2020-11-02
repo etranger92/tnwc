@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`We test the innerHTML of the AnnounceOne Snapshot AnnounceOne  1`] = `
+<AnnounceOne>
+  <section
+    id="announce-one"
+  >
+    <article>
+      <div
+        id="sub-announce-one"
+      >
+        <h4
+          className=""
+        >
+          Friday 16th October 2020 at 10am
+        </h4>
+        <h1
+          className=""
+        >
+          Virtual open day
+        </h1>
+      </div>
+      <div
+        className=""
+        id="sub-announce-two"
+      >
+        <div
+          className="sub_announce_two"
+        >
+          <h4>
+            First part
+          </h4>
+          <div
+            className="sub_announce_two_paragraph"
+          >
+            <p>
+              Introduction to education and training
+            </p>
+            <p>
+              Certificate in education and training
+            </p>
+            <p>
+              Diploma in education and training
+            </p>
+          </div>
+        </div>
+        <div
+          className="sub_announce_two"
+        >
+           
+          <h4>
+             Second part 
+          </h4>
+          <div
+            className="sub_announce_two_paragraph"
+          >
+            <p>
+              Top-up degrees/spedification
+            </p>
+            <p>
+              Qtls
+            </p>
+          </div>
+        </div>
+        <div
+          className="sub_announce_two"
+        >
+           
+          <h4>
+             Third part 
+          </h4>
+          <div
+            className="sub_announce_two_paragraph"
+          >
+            <p>
+              Questions
+            </p>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+</AnnounceOne>
+`;

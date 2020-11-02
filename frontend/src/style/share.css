@@ -1,0 +1,237 @@
+/*============================== 
+	- Author: Nabil
+	- Website: The North Ouest College
+================================= */
+
+/*---------------------- 
+	Stylesheet Guide
+  ----------------------
+00. CONFIG
+01. BODY
+    01.1 root
+    01.2 Body	
+    01.3 Animations
+02. HEADER
+    02.1 Style header & Border
+    02.2 Navigation
+        02.2.1 Desktop
+        02.2.2 Mobile
+    02.3 Presentation header
+    02.4 Loader 
+    02.5 Media Query
+/*===============================================*/
+/* 00. CONFIG							         */
+/*===============================================*/
+
+html {
+  font-size: 14px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(14px + 2 * ((100vw - 320px) / 680));
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  html {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  html {
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-width: 2800px) {
+  html {
+    font-size: 40px;
+  }
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* ----------------------------------------------*/
+/* 01 Body 						                 */
+/* ----------------------------------------------*/
+
+:root {
+  /*****Colors****/
+  --primary-color: #ffffff;
+  --second-color: #F7F7F7;
+  --third-color: grey;
+  --fourth-color: rgb(193, 172, 63);
+  --fifth-color: rgb(44, 43, 43);
+  --error-color: rgb(205, 50, 50);
+  --valid-color: green;
+  --txt-color: #373737;
+  --placeholder-color: rgba(0, 0, 0, 0.418);
+  /*Font family & font-weight & fontsize & letter-spacing */
+  --title-fontFamily: "Playfair Display", serif;
+  --text-fontFamily: "Jost", sans-serif, sans-serif, Arial, Helvetica,
+    sans-serif;
+  --signature: "Tangerine", cursive, sans-serif;
+  --link-fontweight: 600;
+  --letter-spacing: 5px;
+  --font-size: 12px;
+  /*Padding & Margin*/
+  --padding-x: 1rem;
+  --padding-y: 1rem;
+  --padding-div-: 1rem;
+  --margin-section-x: 1rem;
+  --margin-section-y: 7rem;
+  /*transition*/
+  --first-transition: 0.2s;
+  /* Space text */
+  --title-para-space: 1.5rem;
+  --link-space: 4rem;
+  /*Banner */
+  --banner-min-height: 70vh;
+}
+
+@media screen and (min-width: 1600px) {
+  :root {
+    --font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  :root {
+    --font-size: 22px;
+  }
+}
+
+body {
+  font-family: var(--default-fontFamily);
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* ELEMENTS HTML */
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+label {
+  padding-bottom: 0.25rem;
+}
+
+h5,
+h3,
+h4,
+h2 {
+  letter-spacing: var(--letter-spacing);
+  margin-bottom: 1rem;
+
+}
+
+h2 {
+  color: rgb(61, 60, 60);
+}
+
+h5,
+h3,
+h4 {
+  color: var(--third-color);
+}
+
+h1 {
+  font-family: var(--title-fontFamily);
+  font-weight: 300;
+  letter-spacing: var(--letter-spacing);
+  color: var(--txt-color);
+  margin-bottom: 2rem;
+}
+
+h5 {
+  font-family: var(--text-fontFamily);
+}
+
+p {
+  font-family: var(--text-fontFamily);
+  font-weight: 400;
+  color: var(--txt-color);
+  /* text-align: justify !important;
+    text-justify: inter-word !important; */
+}
+
+button {
+  padding: 0.3rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  margin: auto;
+  border: 5px double var(--third-color);
+  border-radius: 29px;
+}
+
+button,
+input:hover {
+  cursor: pointer;
+}
+
+::placeholder {
+  color: var(--placeholder-color);
+  padding: 0.2rem;
+}
+
+[data-state="invalid"] {
+  border-color: var(--error-color) !important;
+  color: var(--error-color) !important;
+}
+
+[data-state="valid"] {
+  color: black;
+}
+
+textarea {
+  border-radius: 10px 10px 10px 10px;
+  padding: .4rem;
+}
+
+/* CLASS STYLE */
+.flex_row_space_btw {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  color: var(--txt-color) !important;
+  display: inline-block !important;
+  padding-top: var(--link-space) !important;
+  font-weight: var(--link-fontweight);
+  border-bottom: 1px solid var(--txt-color);
+  text-transform: uppercase;
+  font-family: var(--text-fontFamily);
+  letter-spacing: var(--letter-spacing);
+  font-size: var(--font-size);
+}
+
+/* CLASS EFFECT */
+.scroll_on_click_init {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 0.2s ease-out;
+}
+
+.scroll_on_click {
+  max-height: 1000px !important;
+  opacity: 1 !important;
+}

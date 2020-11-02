@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`We test the innerHTML of the Footer Snapshot footer 1`] = `
+<div
+  id="footer"
+>
+  <div
+    id="footer-container-one"
+  >
+    <div
+      className="footer_sub_container"
+    >
+      <h2>
+        Courses
+      </h2>
+       
+      <div
+        className="footer_course"
+      >
+        <div
+          className="footer_course_img"
+        >
+           
+          <img
+            alt="education and training"
+            src="aet.png"
+          />
+        </div>
+        <p>
+          AET
+        </p>
+      </div>
+      <div
+        className="footer_course"
+      >
+        <div
+          className="footer_course_img"
+        >
+           
+          <img
+            alt="education and training"
+            src="cet.jpg"
+          />
+        </div>
+        <p>
+          CET
+        </p>
+      </div>
+      <div
+        className="footer_course"
+      >
+        <div
+          className="footer_course_img"
+        >
+           
+          <img
+            alt="education and training"
+            src="det.jpg"
+          />
+        </div>
+        <p>
+          DET
+        </p>
+      </div>
+      <div
+        className="footer_course"
+      >
+        <div
+          className="footer_course_img"
+        >
+           
+          <img
+            alt="teacher status"
+            src="qtls.jpg"
+          />
+        </div>
+        <p>
+          QTLS
+        </p>
+      </div>
+    </div>
+    <div
+      className="footer_sub_container"
+    >
+      <h2>
+        About
+      </h2>
+       
+      <p>
+        The N.W.C is a leading 21st century Awarding Organisation founded to meet the developing education and training needs of learners and employers from the UK and around the globe.
+      </p>
+    </div>
+    <div
+      className="footer_sub_container"
+    >
+      <h2>
+        Follow us
+      </h2>
+      <p>
+        Coming soon
+      </p>
+    </div>
+    <div
+      className="footer_sub_container"
+    >
+       
+      <h2>
+        Find us 
+      </h2>
+      <p>
+        Feel free to contact us and we will be back at you. 
+      </p>
+      <ul
+        id="footer-contact"
+      >
+        <li>
+          <IconLocation />
+           
+          <p>
+            England
+          </p>
+        </li>
+        <li>
+           
+          <IconPhone />
+          <p>
+            07751593970
+          </p>
+        </li>
+        <li>
+           
+          <IconMail />
+          <p>
+            admin@thenorthwestcollege.co.uk
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    id="footer-container-two"
+  >
+    <NavBar
+      isItClicked={true}
+    />
+    <p>
+      Copyright @2020 | Designed by N.S
+    </p>
+    <ul>
+      <li>
+        <IconFacebook />
+      </li>
+      <li>
+        <IconTwitter />
+      </li>
+      <li>
+        <IconInstagram />
+      </li>
+      <li>
+        <IconLinkedin />
+      </li>
+    </ul>
+  </div>
+</div>
+`;

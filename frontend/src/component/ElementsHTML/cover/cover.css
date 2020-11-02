@@ -1,0 +1,26 @@
+#cover-load{
+position: fixed;
+height:100%;
+width: 100%;
+background-color:white;
+z-index: 10000;
+display:flex;
+}
+#cover-load .icon_home {
+    margin:auto;
+    height:10vh;
+    width:10vw;
+}
+#cover-load .icon_home path {
+    fill:var(--fourth-color);
+   
+}
+.hide_loader {
+/*
+height:0% !important;
+overflow: hidden;
+*/
+z-index:-100000 !important;
+opacity: 0;
+transition: all 1s 0.5s ease-in;
+}

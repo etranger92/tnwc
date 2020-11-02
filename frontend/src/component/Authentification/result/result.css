@@ -1,0 +1,11 @@
+@import "../../../style/share.css";
+
+#inscriptionSuccess h4 {
+    color: var(--fourth-color);
+    margin-top: rem;
+}
+
+#inscriptionError h4 {
+    color: var(--fourth-color);
+    margin-top: rem;
+}

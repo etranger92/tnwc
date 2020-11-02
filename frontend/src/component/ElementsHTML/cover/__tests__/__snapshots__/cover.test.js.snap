@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`We test the innerHTML of the cover Snapshot cover 1`] = `
+<div
+  className=""
+  id="cover-load"
+>
+  <IconHome />
+</div>
+`;

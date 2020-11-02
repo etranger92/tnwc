@@ -1,0 +1,6 @@
+@import '../../style/share.css';
+
+
+#course-page #nav-bar>li:nth-child(3)>a>svg>path {
+    fill: var(--fourth-color);
+}

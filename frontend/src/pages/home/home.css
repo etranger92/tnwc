@@ -1,0 +1,17 @@
+@import '../../style/share.css';
+
+#presentation-container,
+#display-article-one,
+#inscription {
+    padding-left: var(--margin-section-x);
+    padding-right: var(--margin-section-x);
+}
+
+#presentation-container,
+#banner-one,
+#display-article-course,
+#banner-two,
+#inscription,
+#announce-one {
+    margin-top: var(--margin-section-y);
+}

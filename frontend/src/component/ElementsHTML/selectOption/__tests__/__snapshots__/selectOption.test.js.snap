@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`We test the innerHTML of the SelectOption Snapshot SelectOption 1`] = `
+<div
+  id="select-option"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    id="select-option-courses"
+  >
+    <span>
+       
+      QTLS
+    </span>
+    <span>
+       
+      <ContextProvider
+        value={
+          Object {
+            "className": "",
+          }
+        }
+      >
+        <FaAngleDown />
+      </ContextProvider>
+    </span>
+  </div>
+  <ul
+    data-name="selection"
+    id="option-course-container"
+  >
+    <li
+      className="
+          "
+      key="option0"
+      onClick={[Function]}
+    >
+       
+      <span>
+        AET
+      </span>
+    </li>
+    <li
+      className="
+          "
+      key="option1"
+      onClick={[Function]}
+    >
+       
+      <span>
+        CET
+      </span>
+    </li>
+    <li
+      className="
+          "
+      key="option2"
+      onClick={[Function]}
+    >
+       
+      <span>
+        DET
+      </span>
+    </li>
+    <li
+      className="
+          "
+      key="option3"
+      onClick={[Function]}
+    >
+       
+      <span>
+        CHILD CARE (LVL 2)
+      </span>
+    </li>
+    <li
+      className="
+          "
+      key="option4"
+      onClick={[Function]}
+    >
+       
+      <span>
+        CHILD CARE (LVL 3)
+      </span>
+    </li>
+  </ul>
+</div>
+`;

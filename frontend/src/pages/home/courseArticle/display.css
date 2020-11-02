@@ -1,0 +1,45 @@
+@import '../../../style/share.css';
+
+#display-article-course {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: auto;
+}
+.article_link_container {
+    width: 100%;
+    margin-top: 2rem;
+    -webkit-box-shadow: 5px 4px 4px -1px rgba(211, 211, 211, 0.88);
+    box-shadow: 5px 4px 4px -1px rgba(211, 211, 211, 0.88);
+    box-shadow: 4.5px 5.4px 10px 0 rgba(0, 0, 0, .06);
+    cursor: pointer;
+    min-height: 60vh;
+    align-items: center;
+    padding: 1rem;
+    
+}
+.article_link_container:hover {
+    -webkit-box-shadow: 0px 2px 17px 6px rgba(227, 227, 227, 0.83);
+    box-shadow: 0px 2px 17px 6px rgba(227, 227, 227, 0.83);
+    cursor: pointer;
+}
+@media screen and (min-width: 800px) {
+    .article_link_container {
+        width: 25%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        min-height: 80vh;
+        max-height: 90vh;
+    }
+}
+
+#display-article-course article  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+#display-article-course article h5 {
+    text-align: center !important;
+}

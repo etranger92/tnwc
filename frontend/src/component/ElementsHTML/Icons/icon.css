@@ -1,0 +1,63 @@
+@import '../../../style/share.css';
+
+
+
+.icon_home,
+.icon_cross {
+    color: var(--third-color) !important;
+}
+
+.icon_home {
+    height: 100%;
+    width: 100%;
+}
+
+.icon_home_color {
+    fill: white;
+    transition: all 1s;
+}
+
+.icon_angle {
+    fill: rgb(193, 172, 63);
+    display: none;
+}
+
+.icon_home_effect_color {
+    fill: rgb(193, 172, 63) !important;
+    transition: all 1s;
+}
+
+.icon_angle,
+.icon_cross:hover {
+    cursor: pointer;
+}
+
+.icon_cross {
+    font-size: 1.1rem;
+
+}
+
+/* Icon rotate when clicked (open, close)*/
+.rotate_animation {
+    transition: all 0.2s;
+}
+
+.rotate_angle {
+    transform: rotate(180deg);
+}
+
+#inscription-facebook {
+    color: white;
+}
+
+.icon_facebook {
+    color: blue;
+}
+
+.icon_twitter {
+    color: rgb(25, 150, 199);
+}
+
+.icon_instagram {
+    color: purple;
+}

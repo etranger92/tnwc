@@ -1,0 +1,249 @@
+@import "../../../style/share.css";
+@import "../../../style/animations.css";
+
+:root {
+  --padding-label-input-inscription: 0.3rem;
+  --padding-inscription-inscritpion: 2rem;
+  --padding-paragraph: 0.5rem;
+  --padding-icon-media: 1rem;
+  --height-label: 10vh;
+  --height-paragraph-error: 3vh;
+  --font-size-paragraph: 13px;
+  --position-top-span: 30%;
+  --position-left-span: 5px;
+  --span-effect-top: 5%;
+  --span-effect-left: 1%;
+  --span-effect-fontSize: 13px;
+  --width-submit: 85%;
+  --height-submit: 4vh;
+  --margin-top-facebook-google: 0.5rem;
+}
+
+#inscription h1 {
+  text-align: center;
+}
+
+#inscription h1 span {
+  border-bottom: 1px solid var(--txt-color);
+}
+
+#flip-card {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: .1rem;
+}
+.css-1wa3eu0-placeholder {
+  opacity: 0;
+}
+
+
+#cover-form {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: whitesmoke;
+  left: 0;
+  transition: all .5s;
+  display: flex;
+  flex-direction: column;
+}
+
+#form-inscription {
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: -3;
+  transform: rotateY(180deg);
+  background-color: white;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+#cover-form span {
+  color: var(--txt-color);
+  align-self: flex-end;
+  padding: 1.5rem;
+  padding-bottom: 1rem;
+  font-family: var(--signature);
+  font-size: 25px;
+}
+
+#flip-card:hover #cover-form {
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+  z-index: -3;
+  transition: all .5s;
+}
+
+#flip-card:hover #form-inscription {
+  transform: rotateY(0deg);
+  transform-style: preserve-3d;
+  z-index: 2;
+
+  transition: all .5s;
+}
+
+#flip-card:focus #form-inscription {
+  z-index: 2;
+}
+
+#cover-form>svg {
+  margin: auto;
+  height: 15%;
+  width: 15%;
+}
+
+#cover-form>svg>path {
+  animation: fillChange 12s linear infinite;
+}
+
+@media only screen and (min-width: 700px) {
+
+  #flip-card {
+    width: 80%;
+  }
+
+  #form-inscription {
+    -webkit-box-shadow: -2px 0px 21px -11px rgba(64, 64, 64, 1);
+    -moz-box-shadow: -2px 0px 21px -11px rgba(64, 64, 64, 1);
+    box-shadow: -2px 0px 21px -11px rgba(64, 64, 64, 1);
+    padding: 2rem;
+  }
+
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+  #form-inscription {
+    padding: 3rem;
+  }
+}
+
+#form-part1,
+#form-part2,
+#form-part3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#form-part-last {
+  display: flex;
+  padding-bottom: 0.5rem;
+}
+
+#form-part-last .sub_form {
+  width: 50%;
+  margin: auto;
+}
+
+#form-part-last .sub_form input {
+  margin-top: 2rem;
+  height: 8vh;
+  width: 100%;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.sub_form {
+  width: 100%;
+
+}
+
+@media only screen and (min-width: 700px) {
+  .sub_form {
+    width: 50%;
+    padding: 2rem;
+  }
+
+}
+
+#form-part3 .sub_form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+#form-part3 .sub_form label {
+  height: auto !important;
+  font-family: var(--signature);
+  font-size: 30px;
+}
+
+#form-part3 .sub_form input {
+  height: 30vh;
+}
+
+#form-part3 .sub_form select {
+  height: 10vh;
+  width: 20vw;
+  background-color: var(--second-color);
+  font-size: 16px;
+}
+
+.sub_form label {
+  display: flex;
+  flex-direction: column;
+  height: var(--height-label) !important;
+  position: relative;
+}
+
+.sub_form p {
+  min-height: var(--height-paragraph-error);
+  font-size: var(--font-size-paragraph);
+  padding-bottom: var(--padding-paragraph);
+}
+
+.error_message {
+  color: var(--error-color);
+}
+
+.sub_form label input {
+  height: 100% !important;
+  width: 100% !important;
+  cursor: text !important;
+  padding: var(--padding-label-input-inscription) !important;
+  border: 1px solid grey ;
+  border-radius: 10px 10px 10px 10px;
+  padding-top: .8rem !important;
+}
+
+.sub_form label span {
+  position: absolute;
+  top: var(--position-top-span);
+  left: var(--position-left-span);
+  pointer-events: none;
+  transition: all 0.5s;
+  color: var(--third-color);
+  z-index:1;
+}
+
+.sub_form:nth-last-child() {
+  text-align: center;
+}
+
+.span_effect {
+  top: var(--span-effect-top) !important;
+  left: var(--span-effect-left) !important;
+  font-size: var(--span-effect-fontSize) !important;
+}
+
+#submit-button {
+  width: var(--width-submit);
+  height: var(--height-submit);
+  background-color: var(--second-color);
+}
+
+.css-g1d714-ValueContainer {
+  height: 9.5vh !important;
+ 
+}
+.css-yk16xz-control{
+    border:1px solid grey !important;
+    border-radius: 10px 10px 10px 10px !important;
+}
+.css-1hwfws3 {
+  height:9vh !important;
+}

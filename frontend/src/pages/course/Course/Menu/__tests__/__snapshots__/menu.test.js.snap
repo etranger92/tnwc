@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`We test the html of Navigation Snapshot menu 1`] = `
+<Fragment>
+  <ul
+    id="menu-list"
+  >
+    <li
+      className=""
+      key="menu0"
+      onClick={[Function]}
+    >
+       
+      <h3>
+        Description
+      </h3>
+    </li>
+    <li
+      className=""
+      key="menu1"
+      onClick={[Function]}
+    >
+       
+      <h3>
+        Curriculum
+      </h3>
+    </li>
+    <li
+      className=""
+      key="menu2"
+      onClick={[Function]}
+    >
+       
+      <h3>
+        Faq
+      </h3>
+    </li>
+    <li
+      className=""
+      key="menu3"
+      onClick={[Function]}
+    >
+       
+      <h3>
+        Announcement
+      </h3>
+    </li>
+  </ul>
+</Fragment>
+`;

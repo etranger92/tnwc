@@ -1,0 +1,99 @@
+@import "../../../style/share.css";
+
+#select-option {
+    position: relative;
+
+}
+
+@media only screen and (min-width: 700px) {
+    #select-option {
+        width: 20vw;
+
+    }
+}
+
+
+#select-option:hover {
+    cursor: default;
+}
+
+#select-option-courses {
+    border: .4px solid rgb(0, 0, 0, .2);
+    border-radius: 0px;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--second-color);
+    color: var(--txt-color);
+    border-radius: 10px 10px 0px 0px;
+}
+
+@media only screen and (min-width: 700px) {
+    #select-option-courses {
+        flex-direction: row;
+    }
+}
+
+#select-option-courses span:first-child {
+    font-size: 17px;
+    color: var(--fourth-color);
+}
+
+#select-option-courses span:last-child {
+    position: absolute;
+    right: 4px;
+    font-size: 20px;
+}
+
+
+#option-course-container {
+    width: 100%;
+}
+
+@media only screen and (min-width: 700px) {
+    #option-course-container {
+        flex-direction: row;
+    }
+}
+
+
+#option-course-container li {
+    height: 10vh;
+    width: 100%;
+    max-height: 0px;
+    overflow: hidden;
+    display: flex;
+    padding-right: .2rem;
+    background-color: var(--second-color);
+
+
+}
+
+.display_option_courses {
+    border: .2px solid rgb(0, 0, 0, .2) !important;
+    max-height: 1000px !important;
+    overflow: initial !important;
+    transition: max-height 1s linear;
+
+}
+
+#option-course-container li:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+#option-course-container li:last-child {
+    border-radius: 0px 0px 10px 10px;
+}
+
+#option-course-container li span {
+    margin: auto;
+    color: var(--txt-color);
+}
+
+#select-option-courses>span:nth-child(2)>svg>path {
+    fill: var(--fourth-color);
+}

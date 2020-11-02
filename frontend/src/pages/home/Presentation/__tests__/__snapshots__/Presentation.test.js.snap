@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Presentation Snapshot: Presentation 1`] = `
+<section
+  id="presentation-container"
+>
+  <article
+    id="presentation"
+  >
+    <h5>
+      TO THE JOURNEY AHEAD
+    </h5>
+    <h1>
+      The North West College
+    </h1>
+    <p>
+      The N.W.C has been created by different teachers who aim to provide high quality teaching. They have been working for many years in different schools, colleges and universities but were never professionally fulfilled about the way they had to deliver or support their learners. When it comes to educating they have three words; engaging, adapting and mastering.
+    </p>
+    <ForwardRef
+      className="link"
+      to="/#inscription"
+    >
+      Enrol
+    </ForwardRef>
+  </article>
+</section>
+`;

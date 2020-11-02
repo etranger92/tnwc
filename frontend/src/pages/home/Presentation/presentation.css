@@ -1,0 +1,40 @@
+@import '../../../style/share.css';
+@import "../../../style/animations.css";
+
+
+#presentation-container {
+    height: auto;
+    display: flex;
+}
+
+@media screen and (min-width: 700px) {
+    #presentation-container {
+        margin-bottom: 0;
+    }
+}
+
+#presentation {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#presentation h5 {
+    padding-top: 0px;
+}
+
+
+@media screen and (min-width: 700px) {
+    #presentation {
+        width: 60%;
+    }
+}
+
+#presentation h1 {
+    padding-top: 0rem !important;
+}

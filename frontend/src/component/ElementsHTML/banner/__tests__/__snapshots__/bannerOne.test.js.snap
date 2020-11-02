@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`We test the innerHTML of the BannerOne Snapshot BannerOne  1`] = `
+<section
+  id="banner-one"
+>
+  <article>
+    <h1 />
+    <span>
+      — 
+    </span>
+  </article>
+</section>
+`;

@@ -1,0 +1,40 @@
+@import '../../../../style/share.css';
+
+#menu-list {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/7;
+    background-color: var(--second-color);
+    margin-left: -1rem;
+    margin-right: -1rem
+}
+
+@media screen and (min-width: 750px) {
+    #menu-list {
+        flex-direction: row;
+        justify-content: stretch;
+    }
+}
+
+#menu-list li {
+    text-transform: uppercase;
+    text-align: center;
+    height: 15vh;
+    display: flex;
+    width: 100%;
+}
+
+#menu-list li:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+#menu-list li h3 {
+    margin: auto;
+}
+
+.menu_active {
+    background-color: white;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+}

@@ -1,0 +1,26 @@
+@import '../../../style/share.css';
+@import '../../../style/animations.css';
+
+#slider-one {
+    height: 60vh;
+    width: 100%;
+}
+@media screen and (min-width: 700px) {
+    #slider-one {
+    height: 100vh;
+    }
+}
+#slider-one #slider-one-img-container {
+    position: relative;
+    top: 0;
+    z-index:-1;
+    height: 100%;
+    width: 100%;
+    opacity: .8;
+    overflow: hidden;
+}
+#slider-one img {
+  position:absolute;
+  height:100%;
+  width:100%;
+}

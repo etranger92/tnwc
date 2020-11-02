@@ -1,0 +1,55 @@
+#burger {
+    width: 32px;
+    height: 23px;
+    cursor: pointer;
+    z-index: 100;
+    top: 0.5rem;
+    position: absolute;
+    right: 0.5rem;
+}
+
+#burger span {
+    display: block;
+    z-index:100;
+    position: absolute;
+    margin-top: 0.2rem;
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    background-color: var(--txt-color);
+    transition: transform 0.05s ease,
+        top 0.05s linear 0.05s,
+        opacity 0.05s ease 0.05s;
+}
+
+#burger span:first-child {
+    top: 0;
+
+}
+
+#burger span:nth-child(2) {
+    top: 9px;
+
+}
+
+#burger span:last-child {
+    top: 18px;
+}
+
+#burger.cross span {
+    transition: top 0.05s linear, opacity 0.05s ease 0.05s, transform 0.05s ease-out 0.05s;
+}
+
+#burger.cross span:first-child {
+    top: 10px;
+    transform: rotate(-50deg);
+}
+
+#burger.cross span:nth-child(2) {
+    opacity: 0;
+}
+
+#burger.cross span:last-child {
+    top: 10px;
+    transform: rotate(50deg);
+}

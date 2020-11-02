@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`We test the innerHTML of the burger Snapshot burger  1`] = `
+<Burger>
+  <div
+    className=""
+    data-testid="no-classes"
+    id="burger"
+    onClick={[Function]}
+  >
+    <span />
+    <span />
+    <span />
+  </div>
+</Burger>
+`;

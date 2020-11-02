@@ -1,0 +1,44 @@
+/* eslint-disable react/prop-types */
+/*/* eslint-disable react/no-unescaped-entities */
+import React from "react";
+import "./display.css";
+import { Link } from "react-router-dom";
+import { connect } from "react-redux";
+
+type Props = {
+  courses: any;
+};
+const ArticleCourse: React.FC<Props> = (props) => {
+  const { courses } = props;
+  const presentationDisplayed = courses.map((course: any, index: number) => {
+    return (
+      <article key={`course${index}`}>
+        <Link
+          to={{
+            pathname: "/courses",
+            state: course.course,
+          }}
+        >
+          <div className="art_img_container">
+            <img src={course.article.image} alt={course.article.alt} />
+          </div>
+          <div className="art_course_description">
+            <h5>{course.article.title}</h5>
+            <p>{course.article.content}</p>
+            <div className="art_course_link">
+              {" "}
+              <span>Learn more</span>
+            </div>
+          </div>
+        </Link>
+      </article>
+    );
+  });
+  return <section id="display-article-course">{presentationDisplayed}</section>;
+};
+const mapStateToProps = (state: { course: any }) => {
+  return {
+    courses: state.course,
+  };
+};
+export default connect(mapStateToProps)(ArticleCourse);
